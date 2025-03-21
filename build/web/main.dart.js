@@ -30635,7 +30635,7 @@ P(a){return B.C6}}
 A.AD.prototype={
 P(a){var s,r,q,p,o=null,n=J.a5b(120,t.N)
 for(s=0;s<120;s=r){r=s+1
-n[s]="image/week"+r+".jpg"}q=A.ajS(A.b([B.JN,B.FN,A.a98("image/logo.png",new A.TZ(),o,50,50)],t.nA),B.co,B.ob)
+n[s]="/images/week"+r+".jpg"}q=A.ajS(A.b([B.JN,B.FN,A.a98("/images/logo.png",new A.TZ(),o,150,150)],t.nA),B.co,B.ob)
 p=A.V(n).h("ae<1,jY>")
 return new A.rS(new A.oP(q,new A.GA(o,o,1/0,56),o),new A.C9(new A.iP(B.xT,A.a4u(new A.D_(B.up,10,10,A.X(new A.ae(n,new A.U_(),p),!0,p.h("ax.E")),o),o,o),o),o),o)}}
 A.TZ.prototype={
