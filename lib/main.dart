@@ -22,7 +22,7 @@ class PhotoGallery extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> photoPaths =
-        List.generate(120, (index) => 'image/week${index + 1}.jpg');
+        List.generate(120, (index) => '/images/week${index + 1}.jpg');
 
     return Scaffold(
       appBar: AppBar(
@@ -31,7 +31,7 @@ class PhotoGallery extends StatelessWidget {
             const Text('도르륵 상품 목록'),
             const SizedBox(width: 10),
             Image.network(
-              '/image/logo.png',
+              '/images/logo.png',
               width: 150,
               height: 150,
               errorBuilder: (context, error, stackTrace) =>
