@@ -31,9 +31,9 @@ class PhotoGallery extends StatelessWidget {
             const Text('도르륵 상품 목록'),
             const SizedBox(width: 10),
             Image.network(
-              'image/logo.png',
-              width: 50,
-              height: 50,
+              '/image/logo.png',
+              width: 150,
+              height: 150,
               errorBuilder: (context, error, stackTrace) =>
                   const Icon(Icons.image_not_supported),
             ),
